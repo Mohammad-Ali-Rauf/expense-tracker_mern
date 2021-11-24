@@ -28,7 +28,7 @@ jobs:
           cmd: install # will run `yarn install` command
           
       - name: Build React app
-        run: yarn build
+        run: sudo yarn build
 
       # Runs a single command using the runners shell
       - name: Install Surge
